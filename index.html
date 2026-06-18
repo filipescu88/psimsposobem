@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Psim Sposobem — Szkolenie psów | Zofia Krzemińska</title>
-  <meta name="description" content="Psim Sposobem — profesjonalne szkolenie i wychowanie psów. Trenerka Zofia Krzemińska. Gilawy 75." />
+  <meta name="description" content="Psim Sposobem — profesjonalne szkolenie i wychowanie psów. Trenerka Zofia Krzemińska. Olsztyn i okolice — dojazd do klienta lub zajęcia nad Jeziorem Długim." />
 
   <!-- Open Graph / social preview -->
   <meta property="og:title" content="Psim Sposobem — Szkolenie psów" />
@@ -161,20 +161,16 @@
       <div>
         <p class="eyebrow">Kontakt</p>
         <h2>Zapraszam do kontaktu</h2>
-        <p>Masz pytania albo chcesz umówić zajęcia? Napisz lub odwiedź nas.</p>
+        <p>Masz pytania albo chcesz umówić zajęcia? Napisz przez formularz — odpiszę najszybciej, jak to możliwe.</p>
 
         <ul class="contact-list">
           <li>
             <span class="contact-list__icon" aria-hidden="true">📍</span>
-            <span><strong>Adres</strong><br />Gilawy 75</span>
+            <span><strong>Gdzie pracuję</strong><br />Olsztyn i okolice — dojazd do klienta lub zajęcia nad Jeziorem Długim</span>
           </li>
           <li>
             <span class="contact-list__icon" aria-hidden="true">✉️</span>
-            <span><strong>E-mail</strong><br /><span class="muted">do uzupełnienia</span></span>
-          </li>
-          <li>
-            <span class="contact-list__icon" aria-hidden="true">📞</span>
-            <span><strong>Telefon</strong><br /><span class="muted">do uzupełnienia</span></span>
+            <span><strong>E-mail</strong><br /><a href="mailto:zkrzeminska25@gmail.com">zkrzeminska25@gmail.com</a></span>
           </li>
         </ul>
 
@@ -194,11 +190,35 @@
         </div>
       </div>
 
-      <div class="map-placeholder">
-        <div class="photo-placeholder photo-placeholder--map">
-          <span aria-hidden="true">🗺️</span>
-          <p>Mapa / dojazd — Gilawy 75</p>
-        </div>
+      <div>
+        <form class="contact-form" action="https://formsubmit.co/zkrzeminska25@gmail.com" method="POST">
+          <!-- ustawienia FormSubmit -->
+          <input type="hidden" name="_subject" value="Nowa wiadomość ze strony psimsposobem.pl" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_next" value="https://psimsposobem.pl/dziekujemy.html" />
+          <!-- honeypot antyspam -->
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="form-row">
+            <label for="cf-name">Imię i nazwisko</label>
+            <input id="cf-name" type="text" name="name" required placeholder="Jak się do Ciebie zwracać?" />
+          </div>
+          <div class="form-row">
+            <label for="cf-email">E-mail</label>
+            <input id="cf-email" type="email" name="email" required placeholder="twoj@email.pl" />
+          </div>
+          <div class="form-row">
+            <label for="cf-dog">Pies (rasa, wiek)</label>
+            <input id="cf-dog" type="text" name="pies" placeholder="np. labrador, 8 miesięcy" />
+          </div>
+          <div class="form-row">
+            <label for="cf-msg">Wiadomość</label>
+            <textarea id="cf-msg" name="message" rows="5" required placeholder="Opisz krótko, w czym mogę pomóc..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Wyślij wiadomość</button>
+          <p class="form-note">Wysyłając formularz, zgadzasz się na kontakt w sprawie zapytania.</p>
+        </form>
       </div>
     </div>
   </section>
@@ -211,8 +231,8 @@
         <span class="brand__text">Psim Sposobem</span>
       </div>
       <p class="footer__meta">
-        Zofia Krzemińska · Gilawy 75 ·
-        <a href="https://psimsposobem.pl">psimsposobem.pl</a>
+        Zofia Krzemińska · Olsztyn i okolice ·
+        <a href="mailto:zkrzeminska25@gmail.com">zkrzeminska25@gmail.com</a>
       </p>
       <p class="footer__copy">© <span id="year"></span> Psim Sposobem. Wszelkie prawa zastrzeżone.</p>
     </div>
