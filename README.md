@@ -4,7 +4,7 @@ Strona-wizytówka trenerki psów **Zofii Krzemińskiej**.
 
 - **Domena docelowa:** [psimsposobem.pl](https://psimsposobem.pl)
 - **Hosting:** GitHub Pages
-- **Adres:** Gilawy 75
+-
 - **Socjale:** Instagram / TikTok / Facebook — `psimsposobem`
 
 ## Status
